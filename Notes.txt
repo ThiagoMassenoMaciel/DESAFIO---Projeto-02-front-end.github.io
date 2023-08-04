@@ -1,0 +1,21 @@
+[Fontes Utilizadas](https://fonts.google.com/?selection.family=JetBrains+Mono:wght@500;700|Open+Sans:wght@400;700)
+
+
+
+Importante deste projeto é perceber as vezespode ser necessário usar no body o min height deva ser igual  100vh quando sua altura n for igual o da viewport.
+
+Desafios ::::O footer não fica exatamente em baixo 
+
+Erro ::: N ter especificado qual img dentro do body estou referenciando
+    🚫body img{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+      }
+
+    ✅body > img{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+      }
+          ::::Detalhes vai fazer você compreender a impotância de especificar sem utilizar id somente com simbolos no css
